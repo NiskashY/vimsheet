@@ -1,0 +1,7 @@
+
+export CMAKE_PREFIX_PATH=/home/mint/GitRepos/Tasks-And-Algorithms/Tasks/Cpp/mipt-cpp/hw/triangles/build/_deps/googletest-src/googletest:
+vim myfile.cpp
+
+export CPLUS_INCLUDE_PATH=/home/mint/GitRepos/Tasks-And-Algorithms/Tasks/Cpp/mipt-cpp/hw/triangles/build/_deps/googletest-src/googletest/include: 
+vim tests.cc
+
