@@ -15,10 +15,10 @@ call vundle#begin()
 " ------------------PLUGINS---------------------------
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'doums/darcula'
+Plugin 'preservim/nerdtree'
+
 " Plugin 'ilyachur/cmake4vim'
-" Plugin 'morhetz/gruvbox'
+Plugin 'morhetz/gruvbox'
 " Plugin 'udalov/kotlin-vim'
 " Plugin 'wakatime/vim-wakatime'
 " Plugin 'NLKNguyen/papercolor-theme'
@@ -51,16 +51,13 @@ filetype plugin indent on    " required
 
 " --------------------VIM APPEARANCE, KEYMAPS, ETC..------------
 set expandtab
-set tabstop=4
-set shiftwidth=4
-set mouse=a
+set tabstop=2
+set shiftwidth=2
 
+filetype plugin indent on
 syntax on
 set autoindent
 set number
-
-colorscheme darcula
-set termguicolors
 
 " # Close brackets automatically, with return
 inoremap {<cr> {<cr>}<C-O><S-O>
